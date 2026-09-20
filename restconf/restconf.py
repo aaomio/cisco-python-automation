@@ -1,7 +1,5 @@
-```python
 # RESTCONF
-# Install Requests:
-# python3 -m pip install requests
+# Install Requests: python3 -m pip install requests
 
 import json
 import requests
@@ -84,4 +82,3 @@ if response.status_code == 200:
 else:
     print(f"PATCH failed: {response.status_code}")
     print(response.text)
-```

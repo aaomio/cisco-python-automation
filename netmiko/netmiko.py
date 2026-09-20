@@ -1,7 +1,5 @@
-```python
 # Netmiko
-# Install Netmiko:
-# python3 -m pip install netmiko
+# Install Netmiko: python3 -m pip install netmiko
 
 from netmiko import ConnectHandler
 
@@ -49,4 +47,3 @@ connection.disconnect()
 # Check the connection again after disconnecting
 connection_status = connection.is_alive()
 print(connection_status)
-```

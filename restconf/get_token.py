@@ -1,7 +1,5 @@
-```python
 # Cisco DNA Center REST API
-# Install requests:
-# python3 -m pip install requests
+# Install requests: python3 -m pip install requests
 
 import requests
 
@@ -55,4 +53,3 @@ token = get_token()
 # Display the token if authentication was successful
 if token:
     print(token)
-```

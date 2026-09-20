@@ -1,7 +1,5 @@
-```python
 # NETCONF
-# Install ncclient:
-# python3 -m pip install ncclient
+# Install ncclient: python3 -m pip install ncclient
 
 from ncclient import manager
 from ncclient.xml_ import to_ele
@@ -68,4 +66,3 @@ print(parseString(response.xml).toprettyxml())
 
 # Close the NETCONF session
 connection.close_session()
-```
