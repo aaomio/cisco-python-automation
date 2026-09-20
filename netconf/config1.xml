@@ -1,0 +1,26 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+
+    <!-- IETF Interfaces YANG model -->
+    <interfaces xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+
+        <!-- Interface to configure -->
+        <interface>
+
+            <!-- Interface name -->
+            <name>GigabitEthernet1</name>
+
+            <!-- Interface description -->
+            <description>Configured via NETCONF</description>
+
+            <!-- Enable the interface -->
+            <enabled>true</enabled>
+
+        </interface>
+
+    </interfaces>
+
+</config>
+```
