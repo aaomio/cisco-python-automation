@@ -104,8 +104,6 @@ python3 -m pip show netmiko
 
 ## Project Structure
 
-## Project Structure
-
 ### [NETMIKO](./netmiko/)
 - [netmiko.py](./netmiko/netmiko.py)
 - [conf1.cfg](./netmiko/conf1.cfg)
